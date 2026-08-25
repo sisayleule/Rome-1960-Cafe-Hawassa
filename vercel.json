@@ -1,6 +1,11 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/about",    "destination": "/pages/about.html" },
+    { "source": "/menu",     "destination": "/pages/menu.html" },
+    { "source": "/services", "destination": "/pages/services.html" },
+    { "source": "/gallery",  "destination": "/pages/gallery.html" },
+    { "source": "/contact",  "destination": "/pages/contact.html" }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
