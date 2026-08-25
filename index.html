@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rome 1960 Cafe — Hawassa, Ethiopia</title>
+  <meta name="description" content="Rome 1960 Cafe is a premium cafe and restaurant in Hawassa, Ethiopia. Experience exceptional coffee, food, and hospitality.">
+  <meta name="keywords" content="Rome 1960, cafe, restaurant, Hawassa, Ethiopia, coffee, food, pizza, dining">
+  <meta property="og:title" content="Rome 1960 Cafe — Hawassa, Ethiopia">
+  <meta property="og:description" content="A premium cafe and restaurant experience in Hawassa, Ethiopia.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1501339847302-ac426a4c7e6f?w=1200&h=630&fit=crop">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Rome 1960 Cafe Home">
+        <img src="assets/images/rome1960-logo.png" alt="Rome 1960 Cafe" class="logo__img">
+        <div class="logo__text">
+          Rome 1960
+          <span>CAFE HAWASSA</span>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <div class="nav__links">
+          <a href="#home" class="nav__link active">Home</a>
+          <a href="#about" class="nav__link">About</a>
+          <a href="#menu" class="nav__link">Menu</a>
+          <a href="#gallery" class="nav__link">Gallery</a>
+          <a href="#contact" class="nav__link">Contact</a>
+        </div>
+        <a href="pages/menu.html" class="nav__cta">View Menu</a>
+      </nav>
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
+    <a href="#home" class="mobile-menu__link">Home</a>
+    <a href="#about" class="mobile-menu__link">About</a>
+    <a href="#menu" class="mobile-menu__link">Menu</a>
+    <a href="#gallery" class="mobile-menu__link">Gallery</a>
+    <a href="#contact" class="mobile-menu__link">Contact</a>
+    <a href="pages/menu.html" class="btn btn--gold" style="margin-top:1rem">View Full Menu</a>
+  </div>
+
+  <!-- ========== Hero ========== -->
+  <section class="hero" id="home">
+    <div class="hero__bg" role="img" aria-label="Rome 1960 Cafe interior"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="hero__welcome">
+        <span class="hero__welcome-line"></span>
+        <span class="hero__welcome-text">WELCOME TO</span>
+        <span class="hero__welcome-line"></span>
+      </div>
+      <div class="hero__brand-glow">
+        <h1 class="hero__title">Rome <em>1960</em></h1>
+        <div class="hero__subtitle-text">CAFE HAWASSA</div>
+      </div>
+      <div class="hero__divider">
+        <span class="hero__divider-line"></span>
+        <span class="hero__divider-icon">
+          <!-- Minimal gold diamond ornament -->
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4.95" y="0.95" width="5.8" height="5.8" rx=".4" transform="rotate(45 7 7)" fill="#C9A45D" opacity="0.82"/>
+            <rect x="5.75" y="1.75" width="4.2" height="4.2" rx=".2" transform="rotate(45 7 7)" fill="none" stroke="#C9A45D" stroke-width=".5" opacity="0.50"/>
+          </svg>
+        </span>
+        <span class="hero__divider-line"></span>
+      </div>
+      <p class="hero__description">A premium cafe and restaurant experience<br>in the heart of Hawassa.</p>
+      <div class="hero__cta">
+        <a href="#menu" class="btn btn--gold">Explore Menu</a>
+        <a href="#contact" class="btn btn--outline-light">Book a Table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Introduction ========== -->
+  <section class="intro" id="intro">
+    <div class="container">
+      <div class="intro__grid">
+        <div class="intro__image reveal">
+          <img src="assets/images/rome1960-dining.jpg" alt="Rome 1960 Cafe dining area" loading="lazy">
+        </div>
+        <div class="intro__content reveal reveal-delay-2">
+          <h2>Discover Rome 1960</h2>
+          <div class="divider divider--left"></div>
+          <p>Rome 1960 Cafe combines fast-food favorites with authentic Ethiopian coffee culture. From crispy fried chicken and gourmet pizzas to freshly brewed espresso and traditional macchiatos, we offer a warm, welcoming dining experience in the heart of Hawassa.</p>
+          <p>Whether you're here for a quick coffee, a family meal, or a night out with friends, our modern space and friendly staff are ready to make your visit memorable.</p>
+          <a href="pages/about.html" class="btn btn--primary" style="margin-top:1.5rem">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Featured Menu ========== -->
+  <section class="featured-menu" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Our Menu</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Explore our carefully curated selection of coffee, food, and drinks</p>
+      </div>
+      <div class="menu-grid stagger-children reveal">
+        <div class="card">
+          <div class="card__image">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop" alt="Coffee" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Coffee & Hot Drinks</h3>
+            <p class="card__text">Expertly crafted coffee beverages using the finest beans.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&h=400&fit=crop" alt="Pizza" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Pizza</h3>
+            <p class="card__text">Freshly prepared pizzas with premium ingredients.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image">
+            <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&h=400&fit=crop" alt="Chicken" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Chicken</h3>
+            <p class="card__text">Delicious chicken dishes prepared with care.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop" alt="Burgers" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Burgers & Sandwiches</h3>
+            <p class="card__text">Gourmet burgers and sandwiches for every taste.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image">
+            <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600&h=400&fit=crop" alt="Fresh Juices" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Fresh Juices & Drinks</h3>
+            <p class="card__text">Refreshing beverages to complement your meal.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&h=400&fit=crop" alt="Desserts" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Desserts</h3>
+            <p class="card__text">Sweet treats to complete your dining experience.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:3rem" class="reveal">
+        <a href="pages/menu.html" class="btn btn--primary">View Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== About Rome 1960 ========== -->
+  <section class="section section--alt" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>About Rome 1960</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Our story, our passion, our commitment to excellence</p>
+      </div>
+      <div class="intro__grid">
+        <div class="intro__content reveal">
+          <h3>Our Story</h3>
+          <div class="divider divider--left"></div>
+          <p>Rome 1960 was created with a simple vision: to bring together the best of fast-food dining and authentic coffee culture in one welcoming space. Located in the heart of Hawassa at Piazza, we've built a place where quality food meets warm Ethiopian hospitality.</p>
+          <p>Every dish is prepared fresh, every cup is brewed with care, and every guest is treated like family. That's the Rome 1960 promise.</p>
+          <a href="pages/about.html" class="btn btn--outline" style="margin-top:1.5rem">Read Our Full Story</a>
+        </div>
+        <div class="intro__image reveal reveal-delay-2">
+          <img src="assets/images/rome1960-story.jpg" alt="Rome 1960 Cafe atmosphere" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Services ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Our Services</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">How we serve you at Rome 1960</p>
+      </div>
+      <div class="grid-2 stagger-children reveal">
+        <div class="icon-block">
+          <div class="icon-block__icon"><i class="fas fa-utensils"></i></div>
+          <h3 class="icon-block__title">Dine In</h3>
+          <p class="icon-block__text">Enjoy your meal in our welcoming cafe atmosphere with comfortable seating and attentive service.</p>
+        </div>
+        <div class="icon-block">
+          <div class="icon-block__icon"><i class="fas fa-shopping-bag"></i></div>
+          <h3 class="icon-block__title">Takeaway</h3>
+          <p class="icon-block__text">Take your favorite food and drinks with you. We will prepare everything fresh for your convenience.</p>
+        </div>
+        <div class="icon-block">
+          <div class="icon-block__icon"><i class="fas fa-calendar-check"></i></div>
+          <h3 class="icon-block__title">Table Reservations</h3>
+          <p class="icon-block__text">Planning a gathering? We accommodate group reservations and special events. Contact us to book your table.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Why Rome 1960 ========== -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Why Rome 1960</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">What makes us different</p>
+      </div>
+      <div class="grid-4 stagger-children reveal">
+        <div class="icon-block">
+          <div class="icon-block__icon"><i class="fas fa-star"></i></div>
+          <h4 class="icon-block__title">Quality</h4>
+          <p class="icon-block__text">We use only the finest ingredients and maintain the highest standards in everything we serve.</p>
+        </div>
+        <div class="icon-block">
+          <div class="icon-block__icon"><i class="fas fa-handshake"></i></div>
+          <h4 class="icon-block__title">Hospitality</h4>
+          <p class="icon-block__text">Warm and welcoming service that makes every guest feel at home.</p>
+        </div>
+        <div class="icon-block">
+          <div class="icon-block__icon"><i class="fas fa-layer-group"></i></div>
+          <h4 class="icon-block__title">Variety</h4>
+          <p class="icon-block__text">A diverse menu offering something special for every taste and preference.</p>
+        </div>
+        <div class="icon-block">
+          <div class="icon-block__icon"><i class="fas fa-couch"></i></div>
+          <h4 class="icon-block__title">Atmosphere</h4>
+          <p class="icon-block__text">A carefully designed space that combines modern elegance with warm comfort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== Gallery Preview ========== -->
+  <section class="gallery-preview" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Our Gallery</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">A glimpse into the Rome 1960 experience</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-grid__item"><img src="assets/images/team-counter.jpg" alt="Rome 1960 team behind the counter" loading="lazy"></div>
+        <div class="gallery-grid__item"><img src="assets/images/pizza-served.jpg" alt="Freshly served pizza" loading="lazy"></div>
+        <div class="gallery-grid__item"><img src="assets/images/pizza-plate.jpg" alt="Signature pizza with premium toppings" loading="lazy"></div>
+        <div class="gallery-grid__item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop" alt="Coffee" loading="lazy"></div>
+        <div class="gallery-grid__item"><img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop" alt="Food" loading="lazy"></div>
+        <div class="gallery-grid__item"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop" alt="Restaurant" loading="lazy"></div>
+        <div class="gallery-grid__item"><img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600&h=400&fit=crop" alt="Drinks" loading="lazy"></div>
+      </div>
+      <div class="cta-row reveal" style="margin-top:3rem">
+        <a href="pages/gallery.html" class="btn btn--primary">View Full Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Customer Reviews ========== -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Customer Reviews</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">What our guests say about us</p>
+      </div>
+      <div class="reviews-grid reveal">
+        <div class="review-card">
+          <div class="review-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="review-card__text">"Great location near Piazza! The pizza is always fresh and the espresso is perfectly brewed. Clean environment and friendly staff — my go-to spot in Hawassa."</p>
+          <div class="review-card__author"><span class="review-card__name">Sarah M.</span><span>Regular Visitor</span></div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="review-card__text">"Affordable fast food with quality taste. The fried chicken combos are my favorite. Quick service and the staff is always welcoming."</p>
+          <div class="review-card__author"><span class="review-card__name">Daniel K.</span><span>Student</span></div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="review-card__text">"Love the variety — from Ethiopian espresso to Italian-style pizza. The ice cream sundaes are amazing too! Perfect place for family outings."</p>
+          <div class="review-card__author"><span class="review-card__name">Meron T.</span><span>Food Enthusiast</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Location ========== -->
+  <section class="section" id="location">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Find Us</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">We look forward to welcoming you</p>
+      </div>
+      <div class="location__grid">
+        <div class="location__info-card reveal">
+          <h3>Visit Rome 1960</h3>
+          <div class="location__detail">
+            <div class="location__detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="location__detail-text">
+              <div class="location__detail-label">Address</div>
+              <div class="location__detail-value">Piazza, Awash Bank Building, Hawassa, Ethiopia</div>
+            </div>
+          </div>
+          <div class="location__detail">
+            <div class="location__detail-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="location__detail-text">
+              <div class="location__detail-label">Phone</div>
+              <div class="location__detail-value">+251 94 650 9290</div>
+            </div>
+          </div>
+          <div class="location__detail">
+            <div class="location__detail-icon"><i class="fas fa-clock"></i></div>
+            <div class="location__detail-text">
+              <div class="location__detail-label">Opening Hours</div>
+              <div class="location__detail-value">Daily: 7:00 AM – 10:00 PM</div>
+            </div>
+          </div>
+          <a href="#" class="btn btn--primary" style="margin-top:1.5rem" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+        <div class="location__map reveal reveal-delay-2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5!2d38.47!3d7.06!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sHawassa!5e0!3m2!1sen!2set!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rome 1960 Cafe location"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Contact CTA ========== -->
+  <section class="contact-cta" id="contact">
+    <div class="container">
+      <h2 class="reveal">Get in Touch</h2>
+      <p class="reveal">We would love to hear from you. Reach out to us through any of these channels.</p>
+      <div class="contact-cta__links reveal">
+        <a href="tel:+251946509290" class="contact-cta__link" aria-label="Call us"><span class="contact-cta__link-icon"><i class="fas fa-phone-alt"></i></span><span>+251 94 650 9290</span></a>
+        <a href="https://wa.me/251946509290" class="contact-cta__link" target="_blank" rel="noopener" aria-label="WhatsApp"><span class="contact-cta__link-icon"><i class="fab fa-whatsapp"></i></span><span>WhatsApp</span></a>
+        <a href="mailto:rome1960cafehawassa@gmail.com" class="contact-cta__link" aria-label="Email us"><span class="contact-cta__link-icon"><i class="fas fa-envelope"></i></span><span>rome1960cafehawassa@gmail.com</span></a>
+      </div>
+      <a href="pages/contact.html" class="btn btn--gold reveal">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="logo__text" style="margin-bottom:1rem">Rome 1960<span>Cafe &amp; Restaurant</span></div>
+          <p>Rome 1960 Cafe combines fast-food favorites with authentic Ethiopian coffee culture in the heart of Hawassa.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/menu.html">Menu</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/gallery.html">Gallery</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item"><i class="fas fa-map-marker-alt"></i> Piazza, Awash Bank Building, Hawassa</div>
+          <div class="footer__contact-item"><i class="fas fa-phone"></i> +251 94 650 9290</div>
+          <div class="footer__contact-item"><i class="fas fa-envelope"></i> rome1960cafehawassa@gmail.com</div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Hours</h4>
+          <div class="footer__contact-item">Daily: 7:00 AM – 10:00 PM</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 Rome 1960 Cafe. All Rights Reserved.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
