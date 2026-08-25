@@ -1,10 +1,18 @@
 {
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "cleanUrls": true,
   "rewrites": [
-    { "source": "/about",    "destination": "/pages/about.html" },
-    { "source": "/menu",     "destination": "/pages/menu.html" },
-    { "source": "/services", "destination": "/pages/services.html" },
-    { "source": "/gallery",  "destination": "/pages/gallery.html" },
-    { "source": "/contact",  "destination": "/pages/contact.html" }
+    { "source": "/about",     "destination": "/pages/about.html" },
+    { "source": "/about/",    "destination": "/pages/about.html" },
+    { "source": "/menu",      "destination": "/pages/menu.html" },
+    { "source": "/menu/",     "destination": "/pages/menu.html" },
+    { "source": "/services",  "destination": "/pages/services.html" },
+    { "source": "/services/", "destination": "/pages/services.html" },
+    { "source": "/gallery",   "destination": "/pages/gallery.html" },
+    { "source": "/gallery/",  "destination": "/pages/gallery.html" },
+    { "source": "/contact",   "destination": "/pages/contact.html" },
+    { "source": "/contact/",  "destination": "/pages/contact.html" }
   ],
   "headers": [
     {

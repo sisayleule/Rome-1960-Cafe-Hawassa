@@ -2,16 +2,5 @@
   "name": "rome1960-cafe-website",
   "version": "1.0.0",
   "description": "Rome 1960 Cafe — Hawassa, Ethiopia. Official website.",
-  "scripts": {
-    "dev": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+  "private": true
 }

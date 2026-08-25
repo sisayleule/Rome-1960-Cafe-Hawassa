@@ -9,37 +9,36 @@
   <meta property="og:description" content="Explore the full menu at Rome 1960 Cafe, Hawassa — coffee, pizza, chicken, burgers, juices, desserts and more.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://images.unsplash.com/photo-1501339847302-ac426a4c7e6f?w=1200&h=630&fit=crop">
-  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="../css/variables.css">
-  <link rel="stylesheet" href="../css/base.css">
-  <link rel="stylesheet" href="../css/components.css">
-  <link rel="stylesheet" href="../css/sections.css">
-  <link rel="stylesheet" href="../css/pages.css">
-  <link rel="stylesheet" href="../css/animations.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/sections.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
-
-  <!-- ========== Header ========== -->
-  <header class="header" id="header">
+  <header class="header scrolled">
     <div class="container">
-      <a href="../index.html" class="logo" aria-label="Rome 1960 Cafe Home">
+      <a href="/" class="logo" aria-label="Rome 1960 Cafe Home">
+        <img src="/assets/images/rome1960-logo.png" alt="Rome 1960 Cafe" class="logo__img">
         <div class="logo__text">Rome 1960<span>Cafe &amp; Restaurant</span></div>
       </a>
       <nav class="nav" aria-label="Main navigation">
         <div class="nav__links">
-          <a href="../index.html" class="nav__link">Home</a>
-          <a href="about.html" class="nav__link">About</a>
-          <a href="menu.html" class="nav__link">Menu</a>
-          <a href="services.html" class="nav__link">Services</a>
-          <a href="gallery.html" class="nav__link">Gallery</a>
-          <a href="contact.html" class="nav__link">Contact</a>
+          <a href="/" class="nav__link">Home</a>
+          <a href="/about" class="nav__link">About</a>
+          <a href="/menu" class="nav__link active">Menu</a>
+          <a href="/services" class="nav__link">Services</a>
+          <a href="/gallery" class="nav__link">Gallery</a>
+          <a href="/contact" class="nav__link">Contact</a>
         </div>
-        <a href="menu.html" class="nav__cta">View Menu</a>
+        <a href="/menu" class="nav__cta">View Menu</a>
       </nav>
       <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
         <span></span><span></span><span></span>
@@ -47,25 +46,78 @@
     </div>
   </header>
 
-  <!-- Mobile Menu -->
   <div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
-    <a href="../index.html" class="mobile-menu__link">Home</a>
-    <a href="about.html" class="mobile-menu__link">About</a>
-    <a href="menu.html" class="mobile-menu__link">Menu</a>
-    <a href="services.html" class="mobile-menu__link">Services</a>
-    <a href="gallery.html" class="mobile-menu__link">Gallery</a>
-    <a href="contact.html" class="mobile-menu__link">Contact</a>
-    <a href="menu.html" class="btn btn--gold" style="margin-top:1rem">View Full Menu</a>
+    <a href="/" class="mobile-menu__link">Home</a>
+    <a href="/about" class="mobile-menu__link">About</a>
+    <a href="/menu" class="mobile-menu__link">Menu</a>
+    <a href="/services" class="mobile-menu__link">Services</a>
+    <a href="/gallery" class="mobile-menu__link">Gallery</a>
+    <a href="/contact" class="mobile-menu__link">Contact</a>
+    <a href="/menu" class="btn btn--gold" style="margin-top:1rem">View Full Menu</a>
   </div>
 
-  
   <section class="page-hero">
     <h1>Our Menu</h1>
     <p>Explore our carefully curated selection of coffee, food, and drinks</p>
-    <div class="breadcrumb"><a href="../index.html">Home</a> / Our Menu</div>
+    <div class="breadcrumb"><a href="/">Home</a> / Our Menu</div>
   </section>
 
-<section class="section"><div class="container"><div class="filter-tabs menu-page-filters"><button class="filter-tab active" data-filter="all">All</button><button class="filter-tab" data-filter="coffee">Coffee</button><button class="filter-tab" data-filter="pizza">Pizza</button><button class="filter-tab" data-filter="chicken">Chicken</button><button class="filter-tab" data-filter="burgers">Burgers</button><button class="filter-tab" data-filter="drinks">Drinks</button><button class="filter-tab" data-filter="desserts">Desserts</button></div><div class="menu-category" data-category="coffee"><div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-mug-hot"></i></span><h2 class="menu-category__title">Coffee & Hot Drinks</h2><div class="menu-category__line"></div></div><div class="menu-items-grid"><div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop" alt="Coffee" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div></div></div><div class="menu-category" data-category="pizza"><div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-pizza-slice"></i></span><h2 class="menu-category__title">Pizza</h2><div class="menu-category__line"></div></div><div class="menu-items-grid"><div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&h=400&fit=crop" alt="Pizza" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div></div></div><div class="menu-category" data-category="chicken"><div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-drumstick-bite"></i></span><h2 class="menu-category__title">Chicken</h2><div class="menu-category__line"></div></div><div class="menu-items-grid"><div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&h=400&fit=crop" alt="Chicken" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div></div></div><div class="menu-category" data-category="burgers"><div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-burger"></i></span><h2 class="menu-category__title">Burgers & Sandwiches</h2><div class="menu-category__line"></div></div><div class="menu-items-grid"><div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop" alt="Burgers" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div></div></div><div class="menu-category" data-category="drinks"><div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-glass-water"></i></span><h2 class="menu-category__title">Fresh Juices & Drinks</h2><div class="menu-category__line"></div></div><div class="menu-items-grid"><div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600&h=400&fit=crop" alt="Drinks" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div></div></div><div class="menu-category" data-category="desserts"><div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-cake-candles"></i></span><h2 class="menu-category__title">Desserts</h2><div class="menu-category__line"></div></div><div class="menu-items-grid"><div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&h=400&fit=crop" alt="Desserts" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div></div></div></div></section><!-- ========== Footer ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-tabs menu-page-filters">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="coffee">Coffee</button>
+        <button class="filter-tab" data-filter="pizza">Pizza</button>
+        <button class="filter-tab" data-filter="chicken">Chicken</button>
+        <button class="filter-tab" data-filter="burgers">Burgers</button>
+        <button class="filter-tab" data-filter="drinks">Drinks</button>
+        <button class="filter-tab" data-filter="desserts">Desserts</button>
+      </div>
+
+      <div class="menu-category" data-category="coffee">
+        <div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-mug-hot"></i></span><h2 class="menu-category__title">Coffee &amp; Hot Drinks</h2><div class="menu-category__line"></div></div>
+        <div class="menu-items-grid">
+          <div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop" alt="Coffee" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div>
+        </div>
+      </div>
+
+      <div class="menu-category" data-category="pizza">
+        <div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-pizza-slice"></i></span><h2 class="menu-category__title">Pizza</h2><div class="menu-category__line"></div></div>
+        <div class="menu-items-grid">
+          <div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&h=400&fit=crop" alt="Pizza" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div>
+        </div>
+      </div>
+
+      <div class="menu-category" data-category="chicken">
+        <div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-drumstick-bite"></i></span><h2 class="menu-category__title">Chicken</h2><div class="menu-category__line"></div></div>
+        <div class="menu-items-grid">
+          <div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&h=400&fit=crop" alt="Chicken" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div>
+        </div>
+      </div>
+
+      <div class="menu-category" data-category="burgers">
+        <div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-burger"></i></span><h2 class="menu-category__title">Burgers &amp; Sandwiches</h2><div class="menu-category__line"></div></div>
+        <div class="menu-items-grid">
+          <div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop" alt="Burgers" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div>
+        </div>
+      </div>
+
+      <div class="menu-category" data-category="drinks">
+        <div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-glass-water"></i></span><h2 class="menu-category__title">Fresh Juices &amp; Drinks</h2><div class="menu-category__line"></div></div>
+        <div class="menu-items-grid">
+          <div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600&h=400&fit=crop" alt="Drinks" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div>
+        </div>
+      </div>
+
+      <div class="menu-category" data-category="desserts">
+        <div class="menu-category__header"><span class="menu-category__icon"><i class="fas fa-cake-candles"></i></span><h2 class="menu-category__title">Desserts</h2><div class="menu-category__line"></div></div>
+        <div class="menu-items-grid">
+          <div class="card"><div class="card__image"><img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&h=400&fit=crop" alt="Desserts" loading="lazy"></div><div class="card__body"><h3 class="card__title">[Menu Item]</h3><p class="card__text">[Description]</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
     <div class="container">
       <div class="footer__grid">
@@ -76,12 +128,12 @@
         <div>
           <h4 class="footer__heading">Quick Links</h4>
           <ul class="footer__links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <div>
@@ -107,6 +159,7 @@
   </footer>
 
   <button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
-
-  <script src="../js/main.js"></script>
-  <script src="../js/menu-filter.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/menu-filter.js"></script>
+</body>
+</html>
